@@ -76,7 +76,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists
 
 
 
-## The Four Quadrants 
+### The Four Quadrants 
 
 * [Programming Languages and Frameworks](https://github.com/AdyKalra/technologyradar/blob/master/Programming%20Languages%20and%20Frameworks.md)
 
