@@ -72,7 +72,7 @@
 </div>
 
 ## Table of Contents
-- [Four Key Metrics](#Four Key Metrics)
+- [Four Key Metrics](#FourKeyMetrics)
 - [Example](#example)
 - [Philosophy](#philosophy)
 
