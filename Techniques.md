@@ -43,15 +43,15 @@
 <div align="center">
   <h3>
     <a href="https://choo.io">
-      Website
+      Tools
     </a>
     <span> | </span>
     <a href="https://github.com/choojs/choo-handbook">
-      Handbook
+      Techniques
     </a>
     <span> | </span>
     <a href="https://github.com/YerkoPalma/awesome-choo">
-      Ecosystem
+      Platforms
     </a>
     <span> | </span>
     <!-- <a href="https://github.com/trainyard/choo-cli"> -->
@@ -59,17 +59,9 @@
     <!-- </a> -->
     <!-- <span> | </span> -->
     <a href="https://github.com/choojs/choo/blob/master/.github/CONTRIBUTING.md">
-      Contributing
+      Languages and Frameworks
     </a>
-    <span> | </span>
-    <a href="https://www.reddit.com/r/choojs/">
-      Reddit
-    </a>
-    <span> | </span>
-    <a href="https://webchat.freenode.net/?channels=choo">
-      Chat
-    </a>
-  </h3>
+    </h3>
 </div>
 
 <div align="center">
