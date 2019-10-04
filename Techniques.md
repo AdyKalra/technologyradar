@@ -42,15 +42,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://choo.io">
+    <a href="https://github.com/AdyKalra/technologyradar/blob/master/Tools.md">
       Tools
     </a>
     <span> | </span>
-    <a href="https://github.com/choojs/choo-handbook">
+    <a href="https://github.com/AdyKalra/technologyradar/edit/master/Techniques.md">
       Techniques
     </a>
     <span> | </span>
-    <a href="https://github.com/YerkoPalma/awesome-choo">
+    <a href="https://github.com/AdyKalra/technologyradar/blob/master/Platforms.md">
       Platforms
     </a>
     <span> | </span>
@@ -58,7 +58,7 @@
     <!--   CLI -->
     <!-- </a> -->
     <!-- <span> | </span> -->
-    <a href="https://github.com/choojs/choo/blob/master/.github/CONTRIBUTING.md">
+    <a href="https://github.com/AdyKalra/technologyradar/blob/master/Programming%20Languages%20and%20Frameworks.md">
       Languages and Frameworks
     </a>
     </h3>
