@@ -78,4 +78,6 @@
 
 ## Four Key Metrics
 
+```The thorough State of DevOps reports have focused on data-driven and statistical analysis of high-performing organizations. The result of this multiyear research, published in Accelerate, demonstrates a direct link between organizational performance and software delivery performance. The researchers have determined that only four key metrics differentiate between low, medium and high performers: lead time, deployment frequency, mean time to restore (MTTR) and change fail percentage. Indeed, we've found that these four key metrics are a simple and yet powerful tool to help leaders and teams focus on measuring and improving what matters. A good place to start is to instrument the build pipelines so you can capture the four key metrics and make the software delivery value stream visible. GoCD pipelines, for example, provide the ability to measure these four key metrics as a first-class citizen of the GoCD analytics.```
+
 
