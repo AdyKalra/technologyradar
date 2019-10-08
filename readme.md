@@ -57,10 +57,6 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists
       Platforms
     </a>
     <span> | </span>
-    <!-- <a href="https://github.com/trainyard/choo-cli"> -->
-    <!--   CLI -->
-    <!-- </a> -->
-    <!-- <span> | </span> -->
     <a href="https://github.com/AdyKalra/technologyradar/blob/master/Programming%20Languages%20and%20Frameworks.md">
       Languages and Frameworks
     </a>
