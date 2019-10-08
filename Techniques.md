@@ -74,7 +74,7 @@
 ## Table of Contents
 - [Four Key Metrics](#four-key-metrics)
 - [Micro Frontends](#Micro-Frontends)
-- [Philosophy](#philosophy)
+- [Opinionated and automated code formatting](#Opinionated-and-automated-code-formatting)
 
 ## Four Key Metrics
 
@@ -84,3 +84,6 @@
 
 ## Micro Frontends
 ```We've seen significant benefits from introducing``` [microservices](https://martinfowler.com/articles/microservices.html)```, which have allowed teams to scale the delivery of independently deployed and maintained services. Unfortunately, we've also seen many teams create a frontend monolith — a large, entangled browser application that sits on top of the backend services — largely neutralizing the benefits of microservices. Since we first described``` **micro frontends** as a technique to address this issue, we've had almost universally positive experiences with the approach and have found a number of patterns to use micro frontends even as more and more code shifts from the server to the web browser. So far,``` [web components](https://www.thoughtworks.com/radar/platforms/web-components-standard) ```have been elusive in this field, though.```
+
+## Opinionated and automated code formatting 
+```For as long as we can remember, what style to use for formatting code has been a matter of personal taste, company policy and heated debate. Finally, the industry appears to be tiring of this endless argument and teams are freeing up surprisingly large amounts of time by forgoing these discussions and just adopting``` **opinionated and automated code formatting tools**. ```Even if you don't agree 100% with the opinions of the various tools, the benefits of focusing on what your code does rather than how it looks is something most teams should be able to get behind.``` [Prettier](https://www.thoughtworks.com/radar/tools/prettier) ```has been getting our vote for JavaScript, but similar tools, such as``` [Black](https://github.com/ambv/black) ```for Python, are available for many other languages and are increasingly being built-in as we see with``` [Golang](https://golang.org/cmd/gofmt/) and [Elixir.](https://elixir-lang.org/blog/2018/01/17/elixir-v1-6-0-released/) ```The key here is not to spend hours discussing which rules to enforce, but instead pick a tool that is opinionated, minimally configurable and automated — ideally as a pre-commit hook.```
