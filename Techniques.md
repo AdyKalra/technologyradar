@@ -73,9 +73,9 @@
 - [Opinionated and automated code formatting](#Opinionated-and-automated-code-formatting)
 - [Secrets as a service](#Secrets-as-a-service)
 - [Chaos Engineering](#Chaos-Engineering)
-- [Crypto shredding](Crypto-shredding)
-- [Infrastructure configuration scanner](Infrastructure-configuration-scanner)
-- [Service mesh](Service-mesh)
+- [Crypto shredding](#Crypto-shredding)
+- [Infrastructure configuration scanner](#Infrastructure-configuration-scanner)
+- [Service mesh](#Service-mesh)
 
 ## Four Key Metrics
 
