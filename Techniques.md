@@ -73,6 +73,7 @@
 - [Opinionated and automated code formatting](#Opinionated-and-automated-code-formatting)
 - [Secrets as a service](#Secrets-as-a-service)
 - [Chaos Engineering](#Chaos-Engineering)
+- [Crypto shredding](Crypto-shredding)
 
 ## Four Key Metrics
 
@@ -93,3 +94,6 @@
 ```accepted, mainstream approach to improving and assuring distributed system resilience. As organizations large and small begin to implement Chaos Engineering as an operational process, we're learning how to apply these techniques safely at scale. The approach is definitely not for everyone, and to be effective and safe, it requires organizational support at scale. Industry acceptance and available expertise will definitely increase with the appearance of commercial services such as```[Gremlin](https://www.thoughtworks.com/radar/tools/gremlin) ```and deployment tools such as``` [Spinnaker](https://www.thoughtworks.com/radar/tools/spinnaker) ``` implementing some Chaos Engineering tools.```
 
 **Chaos Katas** ```is a technique that our teams have developed to train and upskill infrastructure and platform engineers. It combines Chaos Engineering techniques—that is, creating failures and outages in a controlled environment—with the systematic teaching and training approach of Kata. Here,``` [Kata](https://en.wikipedia.org/wiki/Kata) ```refers to code patterns that trigger controlled failures, allowing engineers to discover the problem, recover from the failure, run postmortem and find the root cause. Repeated execution of Katas helps engineers to internalize their new skills.```
+
+## Crypto shredding
+```Maintaining proper control over sensitive data is difficult, especially when it's copied outside of a master system of record for backup and recovery purposes. Crypto shredding is the practice of rendering sensitive data unreadable by deliberately overwriting or deleting encryption keys used to secure that data. Considering there are systems, such as audit application or blockchain, that should not or could not delete historical records, this technique is quite useful for privacy protection and``` [GDPR](https://www.thoughtworks.com/insights/blog/gdpr-it-s-time-rethink-your-approach-privacy) ```compliance.```
