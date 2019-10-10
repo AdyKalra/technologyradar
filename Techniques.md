@@ -74,6 +74,7 @@
 - [Secrets as a service](#Secrets-as-a-service)
 - [Chaos Engineering](#Chaos-Engineering)
 - [Crypto shredding](Crypto-shredding)
+- [Infrastructure configuration scanner](Infrastructure-configuration-scanner)
 
 ## Four Key Metrics
 
@@ -97,3 +98,6 @@
 
 ## Crypto shredding
 ```Maintaining proper control over sensitive data is difficult, especially when it's copied outside of a master system of record for backup and recovery purposes. Crypto shredding is the practice of rendering sensitive data unreadable by deliberately overwriting or deleting encryption keys used to secure that data. Considering there are systems, such as audit application or blockchain, that should not or could not delete historical records, this technique is quite useful for privacy protection and``` [GDPR](https://www.thoughtworks.com/insights/blog/gdpr-it-s-time-rethink-your-approach-privacy) ```compliance.```
+
+## Infrastructure configuration scanner
+```Delivery teams need to take ownership of their entire stack, including infrastructure. This means increased responsibility in the delivery team itself for configuring the infrastructure in a safe, secure and compliant way. When adopting cloud strategies, most organizations default to a tightly locked-down and centrally managed configuration to reduce risk, but this also creates substantial productivity bottlenecks. An alternative approach is to allow teams to manage their own configuration and use an``` **infrastructure configuration scanner** ```to ensure the configuration is safe and secure. Options include open-source scanners such as``` [prowler](https://github.com/toniblyx/prowler) ```for ``` **AWS** ```and``` [kube-bench](https://www.thoughtworks.com/radar/tools/kube-bench) ```for``` **Kubernetes** ``` installations. For more continuous detection, take a look at cloud platforms such as AWS Config Rules among other commercial services.```
