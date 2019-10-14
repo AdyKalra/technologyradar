@@ -70,11 +70,13 @@
 ## Table of Contents
 - [Cypress](#Cypress)
 - [Jupyter](#Jupyter)
-- [Philosophy](#philosophy)
+- [LocalStack](#LocalStack)
 
 ## Cypress
 ``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
 
 ## Jupyter
-``` Over the past couple of years, we've noticed a steady rise in the popularity of``` **analytics notebooks.** ```These are Mathematica-inspired applications that combine text, visualization and code in a living, computational document.``` [Jupyter Notebooks](https://jupyter.org/) ```are widely used by our teams for prototyping and exploration in analytics and machine learning. It has emerged as the current default for Python notebooks. However, we caution to use [Jupyter Notebooks in production.](https://www.thoughtworks.com/radar/techniques/productionizing-jupyter-notebooks)
+``` Over the past couple of years, we've noticed a steady rise in the popularity of``` **analytics notebooks.** ```These are Mathematica-inspired applications that combine text, visualization and code in a living, computational document.``` [Jupyter Notebooks](https://jupyter.org/) ```are widely used by our teams for prototyping and exploration in analytics and machine learning. It has emerged as the current default for Python notebooks. However, we caution to use``` [Jupyter Notebooks in production.](https://www.thoughtworks.com/radar/techniques/productionizing-jupyter-notebooks)
 
+## LocalStack
+```One of the challenges of using cloud services is being able to``` **develop and test locally.** [LocalStack](https://github.com/localstack/localstack) ```solves this problem for``` [AWS](https://www.thoughtworks.com/radar/platforms/aws) ```by providing local``` [test double](https://martinfowler.com/bliki/TestDouble.html) ```implementations of a wide range of AWS services,``` **including S3, Kinesis, DynamoDB and Lambda.** ```It builds on top of best-of-breed tools such as``` [Kinesalite,](https://github.com/mhart/kinesalite) [dynalite](https://github.com/mhart/dynalite) ```and``` [Moto](https://github.com/spulec/moto) ```and adds isolated processes and error injection functionality. LocalStack is very easy to use, ships with a simple JUnit runner and a JUnit 5 extension and can also``` **run inside a docker container.** ```For many teams, it has become the default for testing services that are deployed on AWS.```
