@@ -68,11 +68,13 @@
 </div>
 
 ## Table of Contents
-- [Features](#features)
-- [Example](#example)
+- [Cypress](#Cypress)
+- [Jupyter](#Jupyter)
 - [Philosophy](#philosophy)
 
-## Features
+## Cypress
+``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
 
-
+## Jupyter
+``` Over the past couple of years, we've noticed a steady rise in the popularity of``` **analytics notebooks.** ```These are Mathematica-inspired applications that combine text, visualization and code in a living, computational document.``` [Jupyter Notebooks](https://jupyter.org/) ```are widely used by our teams for prototyping and exploration in analytics and machine learning. It has emerged as the current default for Python notebooks. However, we caution to use [Jupyter Notebooks in production.](https://www.thoughtworks.com/radar/techniques/productionizing-jupyter-notebooks)
 
