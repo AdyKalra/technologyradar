@@ -71,6 +71,7 @@
 - [Cypress](#Cypress)
 - [Jupyter](#Jupyter)
 - [LocalStack](#LocalStack)
+- [Terraform](#Terraform)
 
 ## Cypress
 ``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
@@ -80,3 +81,6 @@
 
 ## LocalStack
 ```One of the challenges of using cloud services is being able to``` **develop and test locally.** [LocalStack](https://github.com/localstack/localstack) ```solves this problem for``` [AWS](https://www.thoughtworks.com/radar/platforms/aws) ```by providing local``` [test double](https://martinfowler.com/bliki/TestDouble.html) ```implementations of a wide range of AWS services,``` **including S3, Kinesis, DynamoDB and Lambda.** ```It builds on top of best-of-breed tools such as``` [Kinesalite,](https://github.com/mhart/kinesalite) [dynalite](https://github.com/mhart/dynalite) ```and``` [Moto](https://github.com/spulec/moto) ```and adds isolated processes and error injection functionality. LocalStack is very easy to use, ships with a simple JUnit runner and a JUnit 5 extension and can also``` **run inside a docker container.** ```For many teams, it has become the default for testing services that are deployed on AWS.```
+
+## Terraform
+[Terraform](https://www.terraform.io/) ```is rapidly becoming a de facto choice for``` **creating and managing cloud infrastructures** ```by writing declarative definitions. The configuration of the servers instantiated by Terraform is usually left to Puppet, Chef or Ansible. We like Terraform because the syntax of its files is quite readable and because it supports a number of cloud providers while making no attempt to provide an artificial abstraction across those providers. The active community will add support for the latest features from most cloud providers. Following our first, more cautious, mention of Terraform almost two years ago, it has seen continued development and has evolved into a stable product with a good ecosystem that has proven its value in our projects. The issue with state file management can now be sidestepped by using what Terraform calls a``` ["remote state backend."](https://www.terraform.io/docs/backends/types/remote.html) ```We've successfully used AWS S3 for that purpose.```
