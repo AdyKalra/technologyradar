@@ -72,6 +72,7 @@
 - [Jupyter](#Jupyter)
 - [LocalStack](#LocalStack)
 - [Terraform](#Terraform)
+- [UI dev environments](#UI-dev-environments)
 
 ## Cypress
 ``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
@@ -84,3 +85,6 @@
 
 ## Terraform
 [Terraform](https://www.terraform.io/) ```is rapidly becoming a de facto choice for``` **creating and managing cloud infrastructures** ```by writing declarative definitions. The configuration of the servers instantiated by Terraform is usually left to Puppet, Chef or Ansible. We like Terraform because the syntax of its files is quite readable and because it supports a number of cloud providers while making no attempt to provide an artificial abstraction across those providers. The active community will add support for the latest features from most cloud providers. Following our first, more cautious, mention of Terraform almost two years ago, it has seen continued development and has evolved into a stable product with a good ecosystem that has proven its value in our projects. The issue with state file management can now be sidestepped by using what Terraform calls a``` ["remote state backend."](https://www.terraform.io/docs/backends/types/remote.html) ```We've successfully used AWS S3 for that purpose.```
+
+## UI dev environments
+```As more and more teams embrace DesignOps, practices and tooling in this space mature. UI dev environments provide a ``` **comprehensive environment for quickly iterating on UI components, focusing on collaboration between user experience designers and developers.** ```We now have a few options in this space:``` [Storybook,](https://storybook.js.org/) [React Styleguidist,](https://react-styleguidist.js.org/) ```Compositor and``` [MDX.](https://mdxjs.com/) ```You can use these tools standalone in component library or design system development as well as embedded in a web application project. Many teams were able to decrease their UI feedback cycles and improve timing of UI work in preparation for development work, which has made using UI dev environments a reasonable default for us.```
