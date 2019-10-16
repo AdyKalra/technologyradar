@@ -75,6 +75,7 @@
 - [UI dev environments](#UI-dev-environments)
 - [AnyStatus](#AnyStatus)
 - [AVA](#AVA)
+- [Elasticsearch LTR](#Elasticsearch-LTR)
 
 ## Cypress
 ``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
@@ -96,3 +97,6 @@
 
 ## AVA
 [AVA](https://github.com/avajs/ava) ```is a``` **test runner for Node.js.** ```Even though JavaScript is single-threaded, IO in Node.js can happen in parallel because of its asynchronous nature. AVA takes advantage of this and runs your tests concurrently, which is especially beneficial for IO-heavy tests. In addition, test files are run in parallel as separate processes, giving you even better performance and an isolated environment for each test file. AVA is a lightweight option, when compared to full-featured frameworks such as Jest. It is opinionated and forces you to write atomic test cases.```
+
+## Elasticsearch LTR
+```One of the challenges of search is ensuring the most relevant results for the user appear at the top of the list. This is where``` **learning to rank (LTR)**``` can help. LTR is the process of applying``` **machine learning to rank documents retrieved by a search engine.** ```If you're using``` [Elasticsearch,](https://www.thoughtworks.com/radar/platforms/elastic-search) ```you can achieve search-relevant ranking with the``` [Elasticsearch LTR plugin.](https://github.com/o19s/elasticsearch-learning-to-rank) ```The plugin uses``` [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) ```for generating the models during the training phase. Then, when querying Elasticsearch, you can use this plugin to``` **"rescore"** ``` the top results. We've used it in a few projects and have been happy with the results. There's also an equivalent``` [LTR solution for Solr users.](http://lucene.apache.org/solr/guide/7_7/learning-to-rank.html)
