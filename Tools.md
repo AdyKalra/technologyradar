@@ -73,6 +73,7 @@
 - [LocalStack](#LocalStack)
 - [Terraform](#Terraform)
 - [UI dev environments](#UI-dev-environments)
+- [AnyStatus](#AnyStatus)
 
 ## Cypress
 ``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
@@ -88,3 +89,6 @@
 
 ## UI dev environments
 ```As more and more teams embrace``` **DesignOps**```, practices and tooling in this space mature. UI dev environments provide a ``` comprehensive environment for quickly iterating on UI components, focusing on **collaboration between user experience designers and developers.** ```We now have a few options in this space:``` [Storybook,](https://storybook.js.org/) [React Styleguidist,](https://react-styleguidist.js.org/) ```Compositor and``` [MDX.](https://mdxjs.com/) ```You can use these tools standalone in component library or design system development as well as embedded in a web application project. Many teams were able to decrease their UI feedback cycles and improve timing of UI work in preparation for development work, which has made using UI dev environments a reasonable default for us.```
+
+## AnyStatus
+```As developers used to pushing many small commits daily, we rely on monitors to notify us when builds go green.``` [AnyStatus](https://www.anystat.us/) ```is a lightweight Windows desktop app that rolls up metrics and events from various sources into one place. Examples include build results and releases, health checks for different services and OS metrics. Think of it as CCTray on steroids. It's also available as a Visual Studio plugin.```
