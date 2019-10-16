@@ -74,6 +74,7 @@
 - [Terraform](#Terraform)
 - [UI dev environments](#UI-dev-environments)
 - [AnyStatus](#AnyStatus)
+- [AVA](#AVA)
 
 ## Cypress
 ``` We keep receiving positive feedback on "post-Selenium" web UI testing tools such as``` [Cypress,](http://www.cypress.io/) [TestCafe](https://www.thoughtworks.com/radar/tools/testcafe) ```and``` [Puppeteer.](https://www.thoughtworks.com/radar/languages-and-frameworks/puppeteer) ```Running end-to-end tests can present challenges, such as the long duration of the running process, the flakiness of some tests and the challenges of fixing failures in CI when running tests in headless mode. Our teams have had very good experiences with Cypress by solving common issues such as lack of performance and long wait time for responses and resources to load. Cypress has become the tool of choice for end-to-end testing within our teams```
@@ -92,3 +93,6 @@
 
 ## AnyStatus
 ```As developers used to pushing many small commits daily, we rely on monitors to notify us when builds go green.``` [AnyStatus](https://www.anystat.us/) ```is a lightweight Windows desktop app that rolls up metrics and events from various sources into one place. Examples include build results and releases, health checks for different services and OS metrics. Think of it as CCTray on steroids. It's also available as a Visual Studio plugin.```
+
+## AVA
+[AVA](https://github.com/avajs/ava) ```is a``` **test runner for Node.js.** ```Even though JavaScript is single-threaded, IO in Node.js can happen in parallel because of its asynchronous nature. AVA takes advantage of this and runs your tests concurrently, which is especially beneficial for IO-heavy tests. In addition, test files are run in parallel as separate processes, giving you even better performance and an isolated environment for each test file. AVA is a lightweight option, when compared to full-featured frameworks such as Jest. It is opinionated and forces you to write atomic test cases.```
